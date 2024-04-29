@@ -1,6 +1,6 @@
 <div class="container">
     <img [src]="food.imageUrl" [alt]="food.name">
-</div>
+
 <div class="details">
     <div class="header">
         <span class="name">
@@ -21,7 +21,7 @@
         </span>
     </div>
     <div class="tag">
-        <app-tag [foodPagetags]="food.tags"></app-tag>
+        <app-tag [foodPagetags]="food.tags" justifyContent="start"></app-tag>
     </div>
     <div class="cook-time">
         <span>
@@ -34,6 +34,7 @@
         </span>
     </div>
 
-    <button>Add to Cart</button>
+    <button (click)="addToCart()" >Add to Cart</button>
 
+</div>
 </div>
