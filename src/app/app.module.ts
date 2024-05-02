@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { TagComponent } from './tag/tag.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FoodpageComponent } from './foodpage/foodpage.component';
     SearchComponent,
     TagComponent,
     CartPageComponent,
-    FoodpageComponent
+    FoodpageComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
